@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <link rel="stylesheet" href="/public/styles.css" />
+  </head>
+  <body>
+    <h1>Users</h1>
+
+    <table>
+      <thead>
+        <th>Name</th>
+      </thead>
+      <tbody>
+        <!-- using ejs to loop through the users array -->
+        <% users.forEach(user => { %>
+          <tr>
+            <td><%= user.name %></td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </body>
+</html>
