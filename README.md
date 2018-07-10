@@ -1,5 +1,11 @@
 # Intro to HTTP Server Programming with Node
 
+## Review
+
+### HTTP Request-Response cycle
+
+![sequence diagram](sequence-diagram.svg)
+
 Project Code available at
 https://github.com/daegren/lhl-w2d2-jul2-lecture
 
